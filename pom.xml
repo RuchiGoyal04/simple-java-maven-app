@@ -26,14 +26,14 @@
         
        
         <configuration>
-          <webXml>WebContent\WEB-INF\web.xml</webXml>
-          <archive>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+          <!-- <archive>
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
-          </archive>
+          </archive> -->
         </configuration>
       </plugin>
     </plugins>
