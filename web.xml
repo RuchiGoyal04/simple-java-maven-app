@@ -5,6 +5,7 @@
          version="3.1">
   <display-name>Hi5S</display-name>
   <welcome-file-list>
-    <welcome-file></welcome-file>
+    <welcome-file>src/main/java/com/mycompany/app/App.java
+      </welcome-file>
   </welcome-file-list>  
 </web-app>
